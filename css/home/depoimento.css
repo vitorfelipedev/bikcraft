@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: var(--cor-p1);
-  overflow: hidden;
 }
 
 .depoimento-imagem img {
@@ -54,6 +53,11 @@
   }
 
   .depoimento-imagem img {
-    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .depoimento p::after,
+  .depoimento p::before {
+    display: none;
   }
 }
