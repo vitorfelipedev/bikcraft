@@ -21,3 +21,6 @@
 
 /*Footer*/
 @import url('./global/footer.css');
+
+/*Termos*/
+@import url('./termos/termos.css');
