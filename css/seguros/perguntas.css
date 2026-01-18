@@ -52,6 +52,9 @@
 }
 
 @media (max-width: 800px) {
+  .perguntas {
+    padding-top: 2.5rem;
+  }
   .perguntas h2 {
     margin-bottom: 2.5rem;
   }
