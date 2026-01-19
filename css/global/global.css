@@ -34,3 +34,7 @@ img {
 img[src$='.jpg'] {
   border-radius: 5px;
 }
+
+button {
+  border: none;
+}
