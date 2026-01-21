@@ -15,12 +15,14 @@
 
 .contato-dados {
   border-radius: 5px 0px 0px 5px;
-  background: var(--cor-12);
+  background: var(--cor-12) url('../../img/dec/bottom-left.svg') no-repeat
+    bottom 1.5rem left 1.5rem;
 }
 
 .contato-formulario {
   border-radius: 0px 5px 5px 0px;
-  background-color: var(--cor-0);
+  background: var(--cor-0) url('../../img/dec/bottom-right.svg') no-repeat
+    bottom 1.5rem right 1.5rem;
 }
 
 .contato-dados h2 {
@@ -67,6 +69,10 @@
 @media (max-width: 800px) {
   .contato {
     grid-template-columns: 1fr;
+  }
+
+  .contato-dados {
+    background: var(--cor-12);
   }
 
   .contato-dados,

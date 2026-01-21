@@ -14,6 +14,8 @@
 .depoimento-conteudo {
   padding: 2.5rem 2.5rem 5rem 5rem;
   align-self: end;
+  background: url('../../img/dec/bottom-right-p.svg') no-repeat bottom 2.5rem
+    right 2.5rem;
 }
 
 .depoimento-conteudo p {
@@ -39,6 +41,12 @@
   font-size: 5rem;
   color: var(--cor-p2);
   position: absolute;
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 800px) {

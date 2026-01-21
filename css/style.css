@@ -31,6 +31,9 @@
 @import url('./seguros/perguntas.css');
 @import url('./seguros/vantagens.css');
 
+/*Orçamento*/
+@import url('./orcamento/orcamento.css');
+
 /*Footer*/
 @import url('./global/footer.css');
 

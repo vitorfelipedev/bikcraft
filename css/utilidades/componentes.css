@@ -93,6 +93,10 @@
   background: var(--cor-11);
 }
 
+.titulo {
+  background: url('../../img/dec/top-right.svg') no-repeat top right 1.5rem;
+}
+
 .titulo p {
   margin-bottom: 0.5rem;
 }
